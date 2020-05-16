@@ -1,0 +1,20 @@
+government = monarchy
+add_government_reform = nortonian_monarchy
+government_rank = 1
+technology_group = north_american
+religion = catholic
+primary_culture = american
+add_accepted_culture = english
+capital = 4637	# San Francisco
+
+1444.11.10 = {
+	monarch = {
+		name = "Joshua"
+		dynasty = "Norton"
+		culture = english
+		birth_date = 1425.02.04
+		adm = 6
+		dip = 6
+		mil = 6
+	}
+}

@@ -1,0 +1,48 @@
+namespace = SFE_events
+
+country_event = {
+	id = SFE_events.1
+  title = "urbanization_marlin_title"
+  desc = "urbanization_marlin_desc"
+	fire_only_once = yes
+  picture = {
+    picture = CITY_VIEW_eventPicture
+    }
+	trigger = {
+		tag = SFE
+		owns_core_province = 2021
+	}
+  option = {
+    name = "URBANIZATION_OPTION"
+    2021 = {
+      rename_capital = "Marlin City"
+      add_base_tax = 2
+      add_base_production = 2
+      add_base_manpower = 2
+  	}
+  }
+ }
+
+ country_event = {
+ 	id = SFE_events.2
+  title = "tahoe_gold_title"
+  desc = "tahoe_gold_desc"
+	fire_only_once = yes
+  picture = {
+      picture = CITY_DEVELOPMENT_eventPicture
+        }
+  trigger = {
+		tag = SFE
+		owns_core_province = 2479
+  }
+   option = {
+     name = "GOLD_RUSH_OPTION"
+     2479 = {
+       rename_capital = "Kirkwood"
+       add_base_tax = 1
+       add_base_production = 3
+       add_base_manpower = 1
+       change_trade_goods = gold
+    }
+   }
+  }

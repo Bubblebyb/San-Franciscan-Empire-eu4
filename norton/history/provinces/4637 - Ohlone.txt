@@ -1,0 +1,18 @@
+# No previous file for Ohlone
+
+culture = american
+religion = catholic
+capital = "Ohlone"
+trade_goods = wine
+hre = no
+base_tax = 3
+base_production = 1
+base_manpower = 3
+discovered_by = north_american
+extra_cost = 8
+center_of_trade = 2
+add_core = SFE
+owner = SFE
+controller = SFE
+
+1542.1.1 = { discovered_by = SPA } # Juan Rodriguez Cabrillo
